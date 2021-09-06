@@ -36,6 +36,7 @@ public class Gallery extends Application {
 	private void setup() {
 		addArt( new InfiniteMotion(300, 300), 50, 50, Color.rgb(130,70,20) );
 		addArt( new PseudoPollock(300,400), 400, 50 );
+		addArt( new PseudoMondrian(300,400), 750, 50 );
 	}
 	
 	/**
